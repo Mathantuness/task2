@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="screen"
+    <title cadastramento</title>
+    </head>
+<body>
+    <div>
+        <h1 id="titulo"> Cadastro de Alunos</h1>
+        <p id="subtitulo">Digite suas referências</p>
+        <br>
+     </div>
+     <form>
+         <fieldset class="grupo">
+             <div>
+              <label for="nome">Nome</label>
+              <input type="text" name="Nome" id="Nome" required>
+            </div class="campo">
+
+
+            <div> 
+                <label for="sobre">Sobre</label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+                </div class="campo">
+
+             <label for="email">Email</label>
+             <input type="email" name="Email" id="Email" required>
+            </fieldset> </div>
+
+             <div class="campo">
+                  <label>Qual curso você pensa em graduar da área de TI?</label>  
+                  <label>
+                    <input type="radio" name="devweb" value="Administração de Banco de Dados:" checked>Administração de Banco de Dados:</label> <!-- o que quero que apareça ta fora-->
+                    
+                    <label>
+                        <input type="radio" name="devweb" value="Análise e Desenvolvimento de Sistemas">Análise e Desenvolvimento de Sistemas
+                    </label>
+                    <label>
+                        <input type="radio" name="devweb" value="Computação em Nuvem">Computação em Nuvem
+                    </label>
+                    
+                <div class="campo">
+                    <label>Turno</label>
+                    <select id="turno">
+                     <option selected disabled value="">Selecione <!-- o que quero que apareça ta fora--> </option>   
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    </select>
+                    </div>
+
+
+                    <fieldset class="grupo">
+                        <div>
+                        <label><strong>Digite qual conhecimento de programação você tem:</label><br><br></strong> 
+                        <input type="checkbox" id="conhecimento1" name="conhecimento1" value="CSS">
+                        <label for="conhecimento1"> CSS</label>
+                        <input type="checkbox" id="conhecimento2" name="conhecimento2" value="HTML"> HTML
+                        <input type="checkbox" id="conhecimento3" name="conhecimento3" value="Python"> Python
+                        </div>
+
+
+                        <button type="submit">Concluído</button>
+
+
+
+
+
+
+
+
+
+
+                        </fieldset>
+
+
+
+
+
+
+                        </div>
+
+
+                </div>
+
+
+         
+     </form>
+</body>
+</html>
